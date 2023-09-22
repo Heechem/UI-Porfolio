@@ -1,10 +1,8 @@
 import { TypeAnimation } from "react-type-animation";
 import { FaFacebook, FaGithub, FaLinkedin } from "react-icons/fa";
 import {
-  SiCsharp,
   SiCss3,
   SiGit,
-  SiGithub,
   SiHtml5,
   SiJavascript,
   SiReact,
@@ -91,7 +89,7 @@ const MainBg = () => {
         alt="web picture"
       />
       <div className="w-full h-screen absolute top-0 left-0 bg-white/60">
-        <div className="max-w-[700px] m-auto h-full w-full flex flex-col justify-center lg:items-start items-center">
+        <div className="max-w-[900px] m-auto h-full w-full flex flex-col justify-center lg:items-center items-center">
           <h1 className="sm:text-5xl text-4xl font-bold text-gray-800">
             I am Heechem
           </h1>
@@ -120,7 +118,7 @@ const MainBg = () => {
               repeat={Infinity}
             />
           </h2>
-          <div className="flex max-w-[250px] w-full justify-between pt-5">
+          <div className="flex  w-full max-w-[300px] justify-between pt-5 mt-10">
             <a
               href="https://www.linkedin.com/in/ichallamene-hichem/"
               target="_blank"
@@ -148,17 +146,17 @@ const MainBg = () => {
             </a>
           </div>
 
-          <p className="mt-16 text-center text-2xl font-bold ">My stack</p>
+          <p className="mt-16 text-center text-2xl font-bold  ">My stack</p>
 
           <div
-            className="flex  w-full overflow-x-auto scroll-smooth px-16 mt-24 scrollbar-hide
+            className="grid grid-cols-3 gap-4 w-full justify-items-center overflow-x-auto  px-16 mt-24 scrollbar-hide 
             "
             ref={elementRef}
           >
             {skills.map((item, index) => (
               <div
                 key={index}
-                className="group flex w-1/3  flex-col items-center  sm:justify-center gap-2 md:gap-0 "
+                className="group flex w-1/3  flex-col items-center  sm:justify-center gap-2 py-2 "
               >
                 {item.icon}
               </div>
