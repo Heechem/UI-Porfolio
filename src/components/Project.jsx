@@ -22,6 +22,7 @@ const Project = () => {
           img={weatherAppImg}
           title="Weather App"
           link={"https://weather-heech.netlify.app/"}
+          repos={"https://github.com/Heechem/weather-app"}
         />
         <ProjectItem
           img={dashBoardImg}
@@ -29,11 +30,17 @@ const Project = () => {
           link={"https://dashboard-clone-mockdata.netlify.app/"}
           repos={"https://github.com/Heechem/react-admin"}
         />
-        <ProjectItem img={wildOasisImg} title="Wild Oasis" />
+        <ProjectItem
+          img={wildOasisImg}
+          title="Wild Oasis"
+          link={"https://wildeoasis.netlify.app"}
+          repos={"https://github.com/Heechem/the-wild-oasis"}
+        />
         <ProjectItem
           img={milkeewayImg}
           title="Milkeeway page"
           link={"https://melkeeway.netlify.app/"}
+          repos={"https://github.com/Heechem/MilkeeWay"}
         />
       </div>
     </div>
