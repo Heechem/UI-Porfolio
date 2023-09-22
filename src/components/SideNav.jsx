@@ -17,6 +17,7 @@ const SideNav = () => {
   return (
     <>
       <AiOutlineMenu
+        size={40}
         onClick={toggleNav}
         className="absolute top-4 right-4 z-[99] md:hidden "
         on
