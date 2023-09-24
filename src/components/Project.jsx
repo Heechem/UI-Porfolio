@@ -2,6 +2,7 @@ import dashBoardImg from "../assets/DashBoard.png";
 import weatherAppImg from "../assets/weatherapp.png";
 import wildOasisImg from "../assets/wildoasis.png";
 import milkeewayImg from "../assets/milkeeway.png";
+import UiDashboard from "../assets/UiDash.png";
 
 import ProjectItem from "./ProjectItem";
 
@@ -41,6 +42,12 @@ const Project = () => {
           title="Milkeeway page"
           link={"https://melkeeway.netlify.app/"}
           repos={"https://github.com/Heechem/MilkeeWay"}
+        />
+        <ProjectItem
+          img={UiDashboard}
+          title="Ui Dashboard"
+          link={"https://admirable-dashboard.netlify.app/"}
+          repos={"https://github.com/Heechem/UI-Dashboard/tree/main"}
         />
       </div>
     </div>
