@@ -1,4 +1,4 @@
-import dashBoardImg from "../assets/DashBoard.png";
+import evogym from "../assets/Evogym.png";
 import weatherAppImg from "../assets/weatherapp.png";
 import wildOasisImg from "../assets/wildoasis.png";
 import milkeewayImg from "../assets/milkeeway.png";
@@ -26,10 +26,10 @@ const Project = () => {
           repos={"https://github.com/Heechem/weather-app"}
         />
         <ProjectItem
-          img={dashBoardImg}
-          title="DashBoard"
-          link={"https://dashboard-clone-mockdata.netlify.app/"}
-          repos={"https://github.com/Heechem/react-admin"}
+          img={evogym}
+          title="Evogym"
+          link={"https://evogym-clone.netlify.app/"}
+          repos={"https://github.com/Heechem/Evogymsite/tree/main"}
         />
         <ProjectItem
           img={wildOasisImg}
