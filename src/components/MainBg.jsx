@@ -93,9 +93,10 @@ const MainBg = () => {
           <h1 className="sm:text-5xl text-4xl font-bold text-gray-800">
             I am Heechem
           </h1>
-          <h2 className="flex flex-wrap justify-center items-center sm:text-3xl text-2xl pt-4 text-gray-800">
+          <h2 className="flex flex-wrap justify-center  items-center sm:text-3xl text-2xl pt-4 text-gray-800">
             I&#39; m
             <TypeAnimation
+              className=" text-center"
               sequence={[
                 // Same substring at the start will only be typed out once, initially
                 2000,
