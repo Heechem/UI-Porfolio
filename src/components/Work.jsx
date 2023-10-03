@@ -1,10 +1,9 @@
-import React from "react";
 import WorkItem from "./WorkItem";
 
 const data = [
   {
     year: 2023,
-    title: "Customer Care representative",
+    title: "FLO - Customer Care representative",
     duration: "today",
     details: `Provided exceptional customer service by assisting customers with product selection, addressing inquiries, and ensuring a positive shopping experience.
     
@@ -15,7 +14,7 @@ const data = [
 
   {
     year: 2020,
-    title: "Trainer / Technical Back-liner ",
+    title: "Teleperformace - Trainer / Technical Back-liner ",
     duration: "2,5 years",
     details: `● having the best satisfaction results
     ● handling training , handling technical and logistical escalations without mistakes and on time
@@ -23,14 +22,14 @@ const data = [
   },
   {
     year: 2019,
-    title: "Customer advisor",
+    title: "NESPRESSO - Customer advisor",
     duration: "6 Months",
     details: `● Increasing the sales on the shop
     ● handling and resolving all complaints in a timely manner and Nespresso guidlines`,
   },
   {
     year: 2018,
-    title: "Customer Service Agent",
+    title: "MAERSK - Customer Service Agent",
     duration: "1.5 Year",
     details: `● Bringing back customer trust
     ● Handling all the shipping, customs and inland issues, on time to avoid Detention and Demurrage.
