@@ -106,7 +106,7 @@ const MainBg = () => {
                 "Driven by the wish to have an  Added Value ",
 
                 2000,
-                "Constantly learning new technologies",
+                "Actually learning Next.js to start Full-Stack Dev",
                 2000,
               ]}
               wrapper="span"

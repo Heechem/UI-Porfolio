@@ -1,4 +1,3 @@
-import React from "react";
 import { HiOutlineDocumentDownload } from "react-icons/hi";
 import ResumeDoc from "../assets/Resume-Hechem.pdf";
 const Resume = () => {

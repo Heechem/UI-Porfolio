@@ -3,6 +3,7 @@ import weatherAppImg from "../assets/weatherapp.png";
 import wildOasisImg from "../assets/wildoasis.png";
 import milkeewayImg from "../assets/milkeeway.png";
 import UiDashboard from "../assets/UiDash.png";
+import Tesla from "../assets/Tesla.png";
 
 import ProjectItem from "./ProjectItem";
 
@@ -18,13 +19,21 @@ const Project = () => {
         created interactive web applications. Dive in and explore my React
         journey through these projects.
       </p>
+
       <div className="grid sm:grid-cols-2 gap-12">
+        <ProjectItem
+          img={Tesla}
+          title="Tesla Clone"
+          link={"https://clone-tesla-v1.netlify.app/"}
+          repos={"https://github.com/Heechem/Tesla-Clone"}
+        />
         <ProjectItem
           img={weatherAppImg}
           title="Weather App"
           link={"https://weather-heech.netlify.app/"}
           repos={"https://github.com/Heechem/weather-app"}
         />
+
         <ProjectItem
           img={evogym}
           title="Evogym"
