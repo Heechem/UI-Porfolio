@@ -2,9 +2,9 @@ import evogym from "../assets/Evogym.png";
 import weatherAppImg from "../assets/weatherapp.png";
 import wildOasisImg from "../assets/wildoasis.png";
 import milkeewayImg from "../assets/milkeeway.png";
-import UiDashboard from "../assets/UiDash.png";
+// import UiDashboard from "../assets/UiDash.png";
 import Tesla from "../assets/Tesla.png";
-
+import ResponsiveUi from "../assets/ResponsiveDashboard.png";
 import ProjectItem from "./ProjectItem";
 
 const Project = () => {
@@ -22,11 +22,18 @@ const Project = () => {
 
       <div className="grid sm:grid-cols-2 gap-12">
         <ProjectItem
+          img={ResponsiveUi}
+          title="Responsive Dashboard"
+          link={"https://responsive-ui-dashboard.netlify.app/"}
+          repos={"https://github.com/Heechem/Responsive-Admin-UI"}
+        />
+        <ProjectItem
           img={Tesla}
           title="Tesla Clone"
           link={"https://clone-tesla-v1.netlify.app/"}
           repos={"https://github.com/Heechem/Tesla-Clone"}
         />
+
         <ProjectItem
           img={weatherAppImg}
           title="Weather App"
@@ -52,12 +59,12 @@ const Project = () => {
           link={"https://melkeeway.netlify.app/"}
           repos={"https://github.com/Heechem/MilkeeWay"}
         />
-        <ProjectItem
+        {/* <ProjectItem
           img={UiDashboard}
           title="Ui Dashboard"
           link={"https://admirable-dashboard.netlify.app/"}
           repos={"https://github.com/Heechem/UI-Dashboard/tree/main"}
-        />
+        /> */}
       </div>
     </div>
   );

@@ -1,5 +1,3 @@
-import React from "react";
-
 const WorkItem = ({ year, details, duration, title }) => {
   return (
     <ul className="flex flex-col md:flex-row relative border-l border-stone-200">
@@ -9,8 +7,10 @@ const WorkItem = ({ year, details, duration, title }) => {
           <span className="'inline-block px-2 py-1 font-semibold text-white bg-[#001be5] rounded-md">
             {year}
           </span>
-          <span className="text-lg font-semibold text-[#001be5]">{title}</span>
-          <span className="text-sm my-1 font-normal text-stone-600 leading-none">
+          <span className="text-lg font-semibold text-[#001be5] underline underline-offset-2">
+            {title}
+          </span>
+          <span className="text-sm my-1 font-bold text-stone-600 leading-none">
             {duration}
           </span>
         </p>
