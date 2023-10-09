@@ -1,6 +1,6 @@
 import evogym from "../assets/Evogym.png";
 import weatherAppImg from "../assets/weatherapp.png";
-import wildOasisImg from "../assets/wildoasis.png";
+// import wildOasisImg from "../assets/wildoasis.png";
 import milkeewayImg from "../assets/milkeeway.png";
 // import UiDashboard from "../assets/UiDash.png";
 import Tesla from "../assets/Tesla.png";
@@ -47,12 +47,12 @@ const Project = () => {
           link={"https://evogym-clone.netlify.app/"}
           repos={"https://github.com/Heechem/Evogymsite/tree/main"}
         />
-        <ProjectItem
+        {/* <ProjectItem
           img={wildOasisImg}
           title="Wild Oasis"
           link={"https://wildeoasis.netlify.app"}
           repos={"https://github.com/Heechem/the-wild-oasis"}
-        />
+        /> */}
         <ProjectItem
           img={milkeewayImg}
           title="Milkeeway page"
