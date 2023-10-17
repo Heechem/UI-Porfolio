@@ -104,10 +104,11 @@ const MainBg = () => {
                 2000,
                 "A Self taught Developer",
                 2000,
-                "Driven by the wish to have an  Added Value ",
-
+                "Coming from Supply chain management and customer service ",
                 2000,
-                "Actually learning Next.js to start Full-Stack Dev",
+                "Dreamer on the borders, as I am a misucian, I always wanted to be creative  ",
+                2000,
+                "Actually learning React & Next.js to start Full-Stack Dev journey",
                 2000,
               ]}
               wrapper="span"
