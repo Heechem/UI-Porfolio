@@ -1,5 +1,5 @@
 import { TypeAnimation } from "react-type-animation";
-import { FaFacebook, FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 import {
   SiCss3,
   SiGit,
@@ -104,11 +104,11 @@ const MainBg = () => {
                 2000,
                 "A Self taught Developer",
                 2000,
-                "Coming from Supply chain management and customer service ",
+                "Transitioning from the world of Supply Chain Management and Customer Service ",
                 2000,
-                "Dreamer on the borders, as I am a misucian, I always wanted to be creative  ",
+                "A Dreamer with a musical soul, constantly seeking creative outlets,  ",
                 2000,
-                "Actually learning React & Next.js to start Full-Stack Dev journey",
+                "Embarking on the journey of web development to bring my creativity to life",
                 2000,
               ]}
               wrapper="span"
@@ -122,7 +122,7 @@ const MainBg = () => {
               repeat={Infinity}
             />
           </h2>
-          <div className="flex  w-full max-w-[300px] justify-between pt-5 mt-10">
+          <div className="flex  w-full max-w-[300px]  pt-5 mt-10 justify-around">
             <a
               href="https://www.linkedin.com/in/ichallamene-hichem/"
               target="_blank"
@@ -140,14 +140,14 @@ const MainBg = () => {
               <FaGithub size={30} className="cursor-pointer" />
             </a>
 
-            <a
+            {/* <a
               href="https://www.facebook.com/hich.icha.92"
               target="_blank"
               rel="noreferrer"
               className="hover: shadow-sm border-0  hover:shadow-gray-500 transition duration-200 ease-in-out hover:scale-110"
             >
               <FaFacebook size={30} className="cursor-pointer" />
-            </a>
+            </a> */}
           </div>
 
           <p className="mt-16 text-center text-2xl font-bold  ">My stack</p>

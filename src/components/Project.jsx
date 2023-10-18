@@ -1,4 +1,4 @@
-import evogym from "../assets/Evogym.png";
+// import evogym from "../assets/Evogym.png";
 import weatherAppImg from "../assets/weatherapp.png";
 // import wildOasisImg from "../assets/wildoasis.png";
 import milkeewayImg from "../assets/milkeeway.png";
@@ -6,6 +6,7 @@ import milkeewayImg from "../assets/milkeeway.png";
 import Tesla from "../assets/Tesla.png";
 import ResponsiveUi from "../assets/ResponsiveDashboard.png";
 import ProjectItem from "./ProjectItem";
+import Youtube from "../assets/youtubeClone.png";
 
 const Project = () => {
   return (
@@ -22,16 +23,23 @@ const Project = () => {
 
       <div className="grid sm:grid-cols-2 gap-12">
         <ProjectItem
-          img={ResponsiveUi}
-          title="Responsive Dashboard"
-          link={"https://responsive-ui-dashboard.netlify.app/"}
-          repos={"https://github.com/Heechem/Responsive-Admin-UI"}
+          img={Youtube}
+          title="Youtube home page Clone"
+          link={"https://lading-youtube-clone.netlify.app/"}
+          repos={"https://github.com/Heechem/Langing-youtube-page/tree/main"}
         />
+
         <ProjectItem
           img={Tesla}
           title="Tesla Clone"
           link={"https://clone-tesla-v1.netlify.app/"}
           repos={"https://github.com/Heechem/Tesla-Clone"}
+        />
+        <ProjectItem
+          img={ResponsiveUi}
+          title="Responsive Dashboard"
+          link={"https://responsive-ui-dashboard.netlify.app/"}
+          repos={"https://github.com/Heechem/Responsive-Admin-UI"}
         />
 
         <ProjectItem
@@ -41,12 +49,12 @@ const Project = () => {
           repos={"https://github.com/Heechem/weather-app"}
         />
 
-        <ProjectItem
+        {/* <ProjectItem
           img={evogym}
           title="Evogym"
           link={"https://evogym-clone.netlify.app/"}
           repos={"https://github.com/Heechem/Evogymsite/tree/main"}
-        />
+        /> */}
         {/* <ProjectItem
           img={wildOasisImg}
           title="Wild Oasis"
