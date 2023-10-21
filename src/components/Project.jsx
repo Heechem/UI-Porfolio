@@ -7,6 +7,7 @@ import Tesla from "../assets/Tesla.png";
 import ResponsiveUi from "../assets/ResponsiveDashboard.png";
 import ProjectItem from "./ProjectItem";
 import Youtube from "../assets/youtubeClone.png";
+import DND from "../assets/DND.png";
 
 const Project = () => {
   return (
@@ -23,18 +24,26 @@ const Project = () => {
 
       <div className="grid sm:grid-cols-2 gap-12">
         <ProjectItem
+          img={Tesla}
+          title="Tesla Clone"
+          link={"https://clone-tesla-v1.netlify.app/"}
+          repos={"https://github.com/Heechem/Tesla-Clone"}
+        />
+
+        <ProjectItem
+          img={DND}
+          title="Drag & Drop Todo app"
+          link={"https://drag-todo.netlify.app/"}
+          repos={"https://github.com/Heechem/Drag-N-Drop"}
+        />
+
+        <ProjectItem
           img={Youtube}
           title="Youtube home page Clone"
           link={"https://lading-youtube-clone.netlify.app/"}
           repos={"https://github.com/Heechem/Langing-youtube-page/tree/main"}
         />
 
-        <ProjectItem
-          img={Tesla}
-          title="Tesla Clone"
-          link={"https://clone-tesla-v1.netlify.app/"}
-          repos={"https://github.com/Heechem/Tesla-Clone"}
-        />
         <ProjectItem
           img={ResponsiveUi}
           title="Responsive Dashboard"
