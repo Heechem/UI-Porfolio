@@ -1,6 +1,4 @@
-import React from "react";
-
-const ProjectItem = ({ img, title, link, repos }) => {
+const ProjectItem = ({ img, title, link, repos, description }) => {
   return (
     <div className="relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-400 rounded-xl group hover:bg-gradient-to-r from-gray-200 to-[#001b5e] ">
       <img
@@ -13,13 +11,14 @@ const ProjectItem = ({ img, title, link, repos }) => {
           {title}
         </h3>
         <a href={repos} target="_blank" rel="noreferrer">
-          <p className="pb-4 pt-2 text-white text-center hover:underline hover:underline-offset-2 hover:cursor-pointer   ">
+          <p className="pb-2 pt-2 text-white text-center hover:underline hover:underline-offset-2 hover:cursor-pointer   ">
             Repos
           </p>
+          {/* <p className="text-center">{description}</p> */}
         </a>
 
         <a href={link} target="_blank" rel="noreferrer">
-          <p className="text-center p-3 rounded-lg bg-white text-gray-700 font-bold text-lg hover:scale-105">
+          <p className="text-center p-1 rounded-lg bg-white text-gray-700 font-bold text-lg hover:scale-105">
             Live Demo
           </p>
         </a>

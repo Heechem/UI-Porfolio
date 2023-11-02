@@ -1,5 +1,6 @@
 import { HiOutlineDocumentDownload } from "react-icons/hi";
-import ResumeDoc from "../assets/Resume-Hechem.pdf";
+import ResumeDoc from "../assets/ResumeHeechem.pdf";
+
 const Resume = () => {
   return (
     <div id="resume" className="max-[1040px] py-16 p-4 m-auto md:pl-20">

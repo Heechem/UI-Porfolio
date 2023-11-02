@@ -2,12 +2,13 @@
 import weatherAppImg from "../assets/weatherapp.png";
 // import wildOasisImg from "../assets/wildoasis.png";
 import milkeewayImg from "../assets/milkeeway.png";
-// import UiDashboard from "../assets/UiDash.png";
+import UiDashboard from "../assets/UiDash.png";
 import Tesla from "../assets/Tesla.png";
 import ResponsiveUi from "../assets/ResponsiveDashboard.png";
 import ProjectItem from "./ProjectItem";
 import Youtube from "../assets/youtubeClone.png";
 import DND from "../assets/DND.png";
+import Uber from "../assets/UberClone.png";
 
 const Project = () => {
   return (
@@ -24,6 +25,12 @@ const Project = () => {
 
       <div className="grid sm:grid-cols-2 gap-12">
         <ProjectItem
+          img={Uber}
+          title="Uber Clone"
+          link={"https://uber-clone-rxnt-al460u03c-heechem.vercel.app/"}
+          repos={"https://github.com/Heechem/uber-clone"}
+        />
+        <ProjectItem
           img={Tesla}
           title="Tesla Clone"
           link={"https://clone-tesla-v1.netlify.app/"}
@@ -35,6 +42,7 @@ const Project = () => {
           title="Drag & Drop Todo app"
           link={"https://drag-todo.netlify.app/"}
           repos={"https://github.com/Heechem/Drag-N-Drop"}
+          description={"Drag and drop"}
         />
 
         <ProjectItem
@@ -44,6 +52,13 @@ const Project = () => {
           repos={"https://github.com/Heechem/Langing-youtube-page/tree/main"}
         />
 
+        {/* <ProjectItem
+          img={UiDashboard}
+          title="Ui Dashboard"
+          link={"https://admirable-dashboard.netlify.app/"}
+          repos={"https://github.com/Heechem/UI-Dashboard/tree/main"}
+        /> */}
+
         <ProjectItem
           img={ResponsiveUi}
           title="Responsive Dashboard"
@@ -51,12 +66,12 @@ const Project = () => {
           repos={"https://github.com/Heechem/Responsive-Admin-UI"}
         />
 
-        <ProjectItem
+        {/* <ProjectItem
           img={weatherAppImg}
           title="Weather App"
           link={"https://weather-heech.netlify.app/"}
           repos={"https://github.com/Heechem/weather-app"}
-        />
+        /> */}
 
         {/* <ProjectItem
           img={evogym}
@@ -70,17 +85,11 @@ const Project = () => {
           link={"https://wildeoasis.netlify.app"}
           repos={"https://github.com/Heechem/the-wild-oasis"}
         /> */}
-        <ProjectItem
+        {/* <ProjectItem
           img={milkeewayImg}
           title="Milkeeway page"
           link={"https://melkeeway.netlify.app/"}
           repos={"https://github.com/Heechem/MilkeeWay"}
-        />
-        {/* <ProjectItem
-          img={UiDashboard}
-          title="Ui Dashboard"
-          link={"https://admirable-dashboard.netlify.app/"}
-          repos={"https://github.com/Heechem/UI-Dashboard/tree/main"}
         /> */}
       </div>
     </div>
