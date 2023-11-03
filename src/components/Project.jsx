@@ -1,4 +1,4 @@
-// import evogym from "../assets/Evogym.png";
+import evogym from "../assets/Evogym.png";
 import weatherAppImg from "../assets/weatherapp.png";
 // import wildOasisImg from "../assets/wildoasis.png";
 import milkeewayImg from "../assets/milkeeway.png";
@@ -16,11 +16,9 @@ const Project = () => {
       <h1 className="text-4xl font-bold text-[#001b5e] text-center">
         Projects
       </h1>
-      <p className=" text-center py-8">
-        Welcome to my projects section! I&apos;m a self-taught React developer,
-        and here, you&apos;ll discover a selection of my work, highlighting my
-        created interactive web applications. Dive in and explore my React
-        journey through these projects.
+      <p className=" text-center py-8 text-xl">
+        Explore my self-taught year of my React journey in these interactive web
+        projects!
       </p>
 
       <div className="grid sm:grid-cols-2 gap-12">
@@ -29,12 +27,7 @@ const Project = () => {
           title="Uber Clone"
           link={"https://uber-clone-rxnt-al460u03c-heechem.vercel.app/"}
           repos={"https://github.com/Heechem/uber-clone"}
-        />
-        <ProjectItem
-          img={Tesla}
-          title="Tesla Clone"
-          link={"https://clone-tesla-v1.netlify.app/"}
-          repos={"https://github.com/Heechem/Tesla-Clone"}
+          description={"test@testmail.com / password:123456"}
         />
 
         <ProjectItem
@@ -42,22 +35,7 @@ const Project = () => {
           title="Drag & Drop Todo app"
           link={"https://drag-todo.netlify.app/"}
           repos={"https://github.com/Heechem/Drag-N-Drop"}
-          description={"Drag and drop"}
         />
-
-        <ProjectItem
-          img={Youtube}
-          title="Youtube home page Clone"
-          link={"https://lading-youtube-clone.netlify.app/"}
-          repos={"https://github.com/Heechem/Langing-youtube-page/tree/main"}
-        />
-
-        {/* <ProjectItem
-          img={UiDashboard}
-          title="Ui Dashboard"
-          link={"https://admirable-dashboard.netlify.app/"}
-          repos={"https://github.com/Heechem/UI-Dashboard/tree/main"}
-        /> */}
 
         <ProjectItem
           img={ResponsiveUi}
@@ -66,6 +44,34 @@ const Project = () => {
           repos={"https://github.com/Heechem/Responsive-Admin-UI"}
         />
 
+        <ProjectItem
+          img={evogym}
+          title="Evogym"
+          link={"https://evogym-clone.netlify.app/"}
+          repos={"https://github.com/Heechem/Evogymsite/tree/main"}
+        />
+        <ProjectItem
+          img={Tesla}
+          title="Tesla Clone"
+          link={"https://clone-tesla-v1.netlify.app/"}
+          repos={"https://github.com/Heechem/Tesla-Clone"}
+          description={"Load of the home page is slow"}
+        />
+
+        {/* <ProjectItem
+          img={Youtube}
+          title="Youtube home page Clone"
+          link={"https://lading-youtube-clone.netlify.app/"}
+          repos={"https://github.com/Heechem/Langing-youtube-page/tree/main"}
+        /> */}
+
+        {/* <ProjectItem
+          img={UiDashboard}
+          title="Ui Dashboard"
+          link={"https://admirable-dashboard.netlify.app/"}
+          repos={"https://github.com/Heechem/UI-Dashboard/tree/main"}
+        /> */}
+
         {/* <ProjectItem
           img={weatherAppImg}
           title="Weather App"
@@ -73,12 +79,6 @@ const Project = () => {
           repos={"https://github.com/Heechem/weather-app"}
         /> */}
 
-        {/* <ProjectItem
-          img={evogym}
-          title="Evogym"
-          link={"https://evogym-clone.netlify.app/"}
-          repos={"https://github.com/Heechem/Evogymsite/tree/main"}
-        /> */}
         {/* <ProjectItem
           img={wildOasisImg}
           title="Wild Oasis"

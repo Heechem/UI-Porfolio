@@ -1,6 +1,6 @@
 const ProjectItem = ({ img, title, link, repos, description }) => {
   return (
-    <div className="relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-400 rounded-xl group hover:bg-gradient-to-r from-gray-200 to-[#001b5e] ">
+    <div className="relative flex flex-col   items-center justify-center h-auto w-full shadow-xl shadow-gray-400 rounded-xl group hover:bg-gradient-to-r from-gray-200 to-[#001b5e] ">
       <img
         src={img}
         alt="Porjects"
@@ -14,7 +14,6 @@ const ProjectItem = ({ img, title, link, repos, description }) => {
           <p className="pb-2 pt-2 text-white text-center hover:underline hover:underline-offset-2 hover:cursor-pointer   ">
             Repos
           </p>
-          {/* <p className="text-center">{description}</p> */}
         </a>
 
         <a href={link} target="_blank" rel="noreferrer">
@@ -23,6 +22,7 @@ const ProjectItem = ({ img, title, link, repos, description }) => {
           </p>
         </a>
       </div>
+      <p className="pt-4 hidden group-hover:block font-bold">{description}</p>
     </div>
   );
 };
